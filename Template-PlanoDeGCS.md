@@ -37,7 +37,7 @@ _[Controlar as versões do sistema, fazer os commits, branchs e merges para melh
 ---------------------------------------
 |TERMO               |                   SIGNIFICADO                        |
 |--------------------|-------------|------------------------|---------------|
-|_&lt;Baseline&gt;_| |_&lt;Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade.&gt;_|
+|_&lt;Baseline&gt;_| |Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade.|
 
 1.4 Referências
 ---------------
@@ -81,7 +81,22 @@ _[Este documento foi criado para melhor orientar os envolvidos nas mudanças e v
 ---------------------------------
 ### 3.1.1 Métodos de Identificação
 ----------------------------------
-_[Descreva como os artefatos do projeto ou produto devem ser nomeados, marcados e numerados. O esquema de identificação deve abranger o hardware, o software do sistema, os produtos de terceiros (COTS) e todos os artefatos de desenvolvimento de aplicativos listados na estrutura de diretórios do produto; por exemplo, planos, modelos, componentes, software de teste, resultados e dados, executáveis e assim por diante.]_
+_[Todos os artefatos gerados, com exceção de código fonte, neste projeto terão a seguinte nomenclatura]_
+
+Faz-se necessário que as letras que compoẽm o identificador esteja em caixa alta, onde estão listados na tabela 1, logo abaixo.
+
+| Identificador        | Artefato                                          |
+|----------------------|---------------------------------------------------|
+| ARQU                 | Documento de arquitetura.                         |
+| ATA                  | Ata de reuniões.                                  |
+| MDC                  | Modelo, ou diagrama, de classes.                  |
+| MER                  | Modelo de entidade-relacionamento.                |
+| PTS                  | Plano de teste de software.                       |
+| REQ                  | Documento de requisito.                           |
+| RPT                  | Relatório de status, métricas, bugs, etc.         |
+| TAP                  | Termo de abertura do projeto.                     |
+| TST                  | Caso de teste.                                    |
+| UC                   | Caso de uso.                                      |
 
 ### 3.1.2 Itens de Configuração
 _[Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou subsistema, responsável ou momento em que deverão ser incluídos em baselines._
@@ -100,11 +115,22 @@ _&lt;análise e negócio (contratos, atas de reunião...);_|_&lt;Simone&gt;_|_&l
 
 ### 3.1.3 Baselines do Projeto
 
-_[As baselines funcionam como um padrão oficial no qual os trabalhos subseqüentes são baseados. Somente mudanças autorizadas podem ser efetuadas nas baselines._
-_Descreva em que pontos do ciclo de vida do projeto ou produto as baselines devem ser estabelecidas. As baselines mais comuns devem ser definidas ao final de cada uma das fases de Iniciação, Elaboração, Construção e Transição. Elas também podem ser geradas no final de iterações ocorridas dentro das várias fases ou com freqüência ainda maior._
-_Descreva quem autoriza uma baseline e o que ela contém.]_
-baseline_artefVERSAOMESANO - Regras de Negócio, casos de uso, diagramas de análise e projeto, mensagens, regras de validação, requisitos, casos de teste, plano de projeto, cronograma, documentos de análise e negócio - Autorizado pelo Gestor do Projeto
-baseline_codigoVERSAOMESANO - Código-fonte - Autorizado pelo Gestor do Projeto
+As baselines serão criadas quando um dos seguintes fatos ocorrerem:
+- Início do projeto;
+- Cliente assinar termo de aceite;
+- Fim de ciclo de desenvolvimento;
+- Entrega de release para o cliente;
+- Alteração de item de configuração;
+- Entrega do produto final do projeto.    
+
+Para que se dê a criação de uma baseline, é necessário que o gerente de configuração autorize, haja vista que o mesmo estará envolvido em todas as etapas do projeto, sendo este responsável por preparar o ambiente em que os artefatos serão versionados.
+
+A baseline, quando criada, conterá:
+- Codigo fonte
+- Documento de requisitos
+- TAP
+- Casos de teste
+- Casos de uso
 
 ### 3.1.4 Estrutura do Repositório de Versões
 _[Descreva a organização de diretórios do seu repositório e que itens/arquivos devem ser armazenados em cada diretório.]_
