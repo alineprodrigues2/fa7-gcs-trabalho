@@ -15,7 +15,8 @@ Histórico de Versões
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
 |_&lt;09/12/2014&gt;_|_&lt;1.0&gt;_|_&lt;Versão inicial&gt;_|_&lt;Simone Magalhaes&gt;_|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
+|_&lt;12/12/2014&gt;_|_&lt;1.1&gt;_|_&lt;Inclusão de requisitos&gt;_  |_&lt;Aline Pereira&gt;_|
+|_&lt;15/12/2014&gt;_|_&lt;1.1&gt;_|_&lt;Inclusão de requisitos&gt;_  |_&lt;Jaqueline Uchoa&gt;_|
 
 
 
@@ -30,11 +31,13 @@ Este Plano de Gerenciamento de Configuração visa definir como, quando e onde d
 
 1.2 Escopo
 ----------
-_[Uma breve descrição do escopo deste Plano de Gerenciamento de Configuração; o modelo ao qual ele está associado e tudo o que é afetado ou influenciado por este documento.]_
+_[Controlar as versões do sistema, fazer os commits, branchs e merges para melhor entendimento por parte dos analista de sistemas, gerentes de projeto e analista de requisitos.Manter clareza nas informações sobre as alterações feitas. Objetividade nas alterações das vesões do sistema]_
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
-_[Esta subseção apresenta as definições de todos os termos, acrônimos e abreviações necessários para a correta interpretação do Plano de Gerenciamento deambi Configuração.  Essas informações podem ser fornecidas mediante referência ao Glossário do projeto.]_
+|TERMO               |                   SIGNIFICADO                        |
+|--------------------|-------------|------------------------|---------------|
+|_&lt;Baseline&gt;_| |_&lt;Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade.&gt;_|
 
 1.4 Referências
 ---------------
@@ -42,7 +45,7 @@ _[Esta subseção apresenta uma lista completa de todos os documentos mencionado
 
 1.5 Visão Geral
 ---------------
-_[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Configuração e explica como o documento está organizado.]_
+_[Este documento foi criado para melhor orientar os envolvidos nas mudanças e versões do Sistema Livraria, como Analista de Requisitos, Gerente de Projeto e Analistas de Sistemas.]_
 
 
 
@@ -51,27 +54,24 @@ _[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Con
 
 2.1 Organização, Responsabilidades e Interfaces
 ------------------------------------------------
-Responsável pela execução das diversas atividades de Gerenciamento de Configuração (CM) descritas no Processo de CM: Aline, Simone, Jacqueline
+|PAPÉIS        |EQUIPE    |RESPOSABILIDADE       |
+|:------------:|:-----------:|------------|
+|Gerente de Configuração| Simone Magalhães |Estabelecer Políticas de GC</br>   Escrever Plano de GC</br>  Configurar Ambiente de GC</br>  Criar Espaços de Trabalho de Integração</br>  Criar Baselines</br>  Promover Baselines|
+|CCM| Aline Pereira |Estabelecer Processo de Controle de Mudanças</br>  Revisar Solicitação de Mudança|
+|Desenvolvedor|Jaqueline Uchoa </br >Simone Magalhães|Seguir os padrões e procedimentos definidos no Plano de Gerência de Configuração|
 
 2.2 Ferramentas, Ambiente e Infra-estrutura
 -------------------------------------------
-_[Descreva o ambiente de computação e as ferramentas de software a serem utilizadas para desempenhar as funções de CM em todo o ciclo de vida do projeto ou produto.]_
-Ferramentas e os procedimentos necessários utilizados para o controle de versão dos itens de configuração gerados no ciclo de vida do projeto ou produto:
-* Elaboração dos artefatos de Especificação: LibreOffice (Casos de Uso, Regras de Negócio, Regras de Validação,  Requisitos, Mensagens);
-* Diagramas de análise e Projeto: StarUML 5.0
-* Controle de versão: GIT;
-* Gestão de mudanças: Mantis.
-
-Ambiente:
-* Eclipse Indigo 3.7: Ant, Junit
-* PostgreSQL 8.4: Configuração padrão / Sem plugins adicionais
-* Ireport 1.2.8: Configuração padrão / Sem plugins adicionais
-
-_[As questões envolvidas na configuração do ambiente de CM incluem:_
-* _tamanho previsto dos dados do produto_
-* _distribuição da equipe do produto_
-* _localização física dos servidores e clientes]_
- 
+|Tipo   |Ferramenta	    |Versão    |
+|----------------|----------|:---------------:|
+|Elaboração dos artefatos de Especificação|	LibreOffice	|-|
+|Diagramas de análise e Projeto	|StarUML|5.03|
+|Controle de versão|GIT|2.0|
+|Gestão de mudanças|Mantis|2013
+|Plataforma de Desenvolvimento|Ferramenta: Eclipse Indigo 3.7</br><br>Linguagem: JAVA SE |Junit	|
+|Banco de Dados|PostgreSQL	|8.4|
+|Maquina virtual|	VirtualBox |	4.3.2|
+|Comunicação|Telefone	/ Skype / Hangout/ WhatZap|
 
 
 3. O Programa de Gerenciamento de Configuração
