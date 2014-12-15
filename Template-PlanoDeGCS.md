@@ -5,38 +5,34 @@ Plano de Gerenciamento de Configuração
 Versão &lt;1.0&gt;
 ------------------
 
-_[Observação: O template a seguir é fornecido para uso com o Rational Unified Process (RUP).  O texto exibido entre colchetes e em itálico foi incluído para orientar o autor e deve ser excluído antes da publicação do documento._
-
-_Este documento utiliza a formatação da linguagem [Markdown] (http://daringfireball.net/projects/markdown/). Você pode encontrar um guia de referência rápido [aqui] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).]_
-
 Histórico de Versões
 --------------------
 
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.0&gt;_|_&lt;Versão inicial&gt;_|_&lt;autor&gt;_|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
-
+|_&lt;12/12/2014&gt;_|_&lt;1.0&gt;_|_&lt;Versão inicial&gt;_|_&lt;Aline Pereira&gt;_|
+|_&lt;15/12/2014&gt;_|_&lt;1.1&gt;_|_&lt;Atualização de Documentos&gt;_  |_&lt;Simone&gt;_|
+|_&lt;15/12/2014&gt;_|_&lt;1.1&gt;_|_&lt;Atualização de Documentos&gt;_  |_&lt;Jaqueline&gt;_|
 
 
 1. Introdução
 ==============
 
-_[A introdução do Plano de Gerenciamento de Configuração  oferece uma visão geral de todo o documento. 
-Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste
-Plano de Gerenciamento de Configuração.]_
+_[Este documento apresenta o plano de gerência de configuração e mudança do Sistema Livraria que servirá de base de referência para o controle sistemático da configuração e das mudanças realizadas no projeto, durante todo o seu ciclo de vida até que os produtos gerados sejam liberados para o cliente, mantendo sua integridade.]_
 
 1.1 Finalidade
 ---------------
-_[Especifique a finalidade deste Plano de Gerenciamento de Configuração.]_
+_[Manter a equipe informada de todas as mudanças que foram feitas evitando assim problemas futuros.]_
 
 1.2 Escopo
 ----------
-_[Uma breve descrição do escopo deste Plano de Gerenciamento de Configuração; o modelo ao qual ele está associado e tudo o que é afetado ou influenciado por este documento.]_
+_[Controlar as versões do sistema, fazer os commits, branchs e merges para melhor entendimento por parte dos analista de sistemas, gerentes de projeto e analista de requisitos.Manter clareza nas informações sobre as alterações feitas. Objetividade nas alterações das vesões do sistema.]_
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
-_[Esta subseção apresenta as definições de todos os termos, acrônimos e abreviações necessários para a correta interpretação do Plano de Gerenciamento de Configuração.  Essas informações podem ser fornecidas mediante referência ao Glossário do projeto.]_
+_[TERMO	SIGNIFICADO
+Baseline	Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade.
+SKRV	Sistema Kalebe Ricardo Virgilio]_
 
 1.4 Referências
 ---------------
