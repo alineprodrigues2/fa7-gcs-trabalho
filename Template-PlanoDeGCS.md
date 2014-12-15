@@ -1,13 +1,9 @@
-<Nome do Projeto>
+<Sistema de livraria SAJ>
 =================
 Plano de Gerenciamento de Configuração
 ======================================
 Versão &lt;1.0&gt;
 ------------------
-
-_[Observação: O template a seguir é fornecido para uso com o Rational Unified Process (RUP).  O texto exibido entre colchetes e em itálico foi incluído para orientar o autor e deve ser excluído antes da publicação do documento._
-
-_Este documento utiliza a formatação da linguagem [Markdown] (http://daringfireball.net/projects/markdown/). Você pode encontrar um guia de referência rápido [aqui] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).]_
 
 Histórico de Versões
 --------------------
@@ -31,21 +27,21 @@ Este Plano de Gerenciamento de Configuração visa definir como, quando e onde d
 
 1.2 Escopo
 ----------
-_[Controlar as versões do sistema, fazer os commits, branchs e merges para melhor entendimento por parte dos analista de sistemas, gerentes de projeto e analista de requisitos.Manter clareza nas informações sobre as alterações feitas. Objetividade nas alterações das vesões do sistema]_
+Controlar as versões do sistema, fazer os commits, branchs e merges para melhor entendimento por parte dos analista de sistemas, gerentes de projeto e analista de requisitos.Manter clareza nas informações sobre as alterações feitas. Objetividade nas alterações das vesões do sistema.
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
 |TERMO               |                   SIGNIFICADO                        |
 |--------------------|-------------|------------------------|---------------|
-|_&lt;Baseline&gt;_| |Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade.|
+|_&lt;Baseline&gt;_| |_&lt;Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade&gt;_|
 
 1.4 Referências
 ---------------
-_[Esta subseção apresenta uma lista completa de todos os documentos mencionados no Plano de Gerenciamento de Configuração. Identifique os documentos por título, número de relatório (se aplicável), data e organização responsável pela publicação. Especifique as fontes a partir das quais as referências podem ser obtidas. Essas informações podem ser fornecidas por um anexo ou outro documento.]_
+Analise e referencia documento de requisito.
 
 1.5 Visão Geral
 ---------------
-_[Este documento foi criado para melhor orientar os envolvidos nas mudanças e versões do Sistema Livraria, como Analista de Requisitos, Gerente de Projeto e Analistas de Sistemas.]_
+Este documento foi criado para melhor orientar os envolvidos nas mudanças e versões do Sistema Livraria, como Analista de Requisitos, Gerente de Projeto e Analistas de Sistemas.
 
 
 
@@ -81,7 +77,7 @@ _[Este documento foi criado para melhor orientar os envolvidos nas mudanças e v
 ---------------------------------
 ### 3.1.1 Métodos de Identificação
 ----------------------------------
-_[Todos os artefatos gerados, com exceção de código fonte, neste projeto terão a seguinte nomenclatura]_
+Todos os artefatos gerados, com exceção de código fonte, neste projeto terão a seguinte nomenclatura.
 
 Faz-se necessário que as letras que compoẽm o identificador esteja em caixa alta, onde estão listados na tabela 1, logo abaixo.
 
@@ -99,9 +95,6 @@ Faz-se necessário que as letras que compoẽm o identificador esteja em caixa a
 | UC                   | Caso de uso.                                      |
 
 ### 3.1.2 Itens de Configuração
-_[Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou subsistema, responsável ou momento em que deverão ser incluídos em baselines._
-* _“Inclusão em Baseline” em branco significa que o grupo de artefatos não participará de baseline. Pode ser expresso como uma data ou identificador de uma baseline, fase ou ponto de controle_
-* _“Responsável”: indicar nominalmente, sempre que possível]_
 
 | Item (ou Tipo de Item)                           | Responsável na equipe	     | Inclusão em Baseline |
 |--------------------------------------------------|----------------------------|----------------------|
@@ -133,7 +126,7 @@ A baseline, quando criada, conterá:
 - Casos de uso
 
 ### 3.1.4 Estrutura do Repositório de Versões
-_[Descreva a organização de diretórios do seu repositório e que itens/arquivos devem ser armazenados em cada diretório.]_
+
 Artefatos > Especificação > Requisitos; Regras de Negócio; Casos de uso; Mensagens; Regras de Validação;
 Artefatos > Especificação > Teste > Casos de teste funcional; Casos de teste desempenho;
 Artefatos > Análise e Projeto > Diagramas de Análise e Projeto (Classe, Sequencia, Atividade, Caso de uso, Estado, Implantação);
@@ -144,19 +137,29 @@ Códigoe > Fontes (Arquivos do sistema)
 --------------------------------------
 
 ### 3.2.1 Processamento e Aprovação de Solicitações de Mudança
-_[Descreva o processo pelo qual os problemas e as mudanças são submetidos, revisados e dispostos. Inclua como funciona a transição de estados de uma solicitação de mudança]_
+
 Ciclo de vida de uma solicitação de mudança: Novo, Atribuído, Em desenvolvimento, resolvido, Testado, Fechado, re-aberto.
 Estrutura do CCB do seu projeto: ??
 
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
-_[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
+
+O CCB será composto de um gerente de cada time, que são:
+
+* Desenvolvimento: Analisar o impacto da CR;
+* Teste: Analisar os testes que necessitarão ser alterados para abranger a CR, avaliando os riscos e como mitigá-los;
+* Suporte Técnico: Analisar os manuais que necessitarão ser alterados para abranger a CR;
+* Financeiro: Analisar a viabilidade financeira;
+* Comercial: Analisar o alinhamento quanto ao negócio;
+* Gerência de projetos: Analisar quanto ao escopo do projeto.
+
+A análise irá iniciar com o relatório da análise de impacto realizado pela equipe de desenvolvimento, apresentando no relatório a quantidade de horas necessárias para realizar a alteração. Somente então a equipe de teste irá avaliar o esforço necessário para criar ou alterar os testes, bem como o suporte analisará os manuais que necessitarão de criação ou alteração
 Integrantes: Aline, Simone, Jacqueline
 
 
 4. Padrões e Procedimentos
 ==========================
-_[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie subseções se achar necessário, para organizá-los melhor.]_
+
 Quando será obrigatório criar: Manutenção de uma versão em produção x trabalho na nova
 versão, Atividade impactante e demorada, Customizações para diferentes.
 clientes ou ambientes
@@ -167,10 +170,23 @@ Quando e por quem o merge deve ser feito - a cada nova entrega ou versão - GC
 
 5. Treinamento e Recursos
 =========================
-_[Descreva as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.]_
-Ferramentas: GIT, Mantis
+
+|Treinamento|Objetivo|Público Alvo|
+|:---:|---|:---:|
+|Repositório|Ensinar como acessar o repositório através do _GIT_,</br> Como dar os comandos principais do repositório,  como incluir, atualizar e excluir itens dentro do repositório, e, </br>Como colocar os arquivos no repositório online _(GitHub)_.|Toda equipe|
 
 
 6. Auditorias de Configuração
 =============================
-_[Descreva o cronograma das auditorias de configuração e o que será verificado. Informe também como serão reportados os problemas encontrados e onde sera feito o acompanhamento dos itens corretivos.]_
+
+A auditoria será realizada sempre antes da liberação da _baseline_ para o cliente, sendo responsável por verificar se o que está sendo liberado para o cliente está completo, no que tange as cláusulas contratuais, e correta, atendendo ao requisitos estabelecidos.
+A auditoria será responsável por verificar se os componentes estão presentes nas versões especificadas e confirmar a presença de todos os artefatos necessários.
+Caso, durante a auditoria, alguma falha seja encontrada devem ser executados os seguintes passos:
+<ol>
+<li>Identificiação do problema, apresentando a discrepância nos artefatos envolvidos.</li>
+<li>Identificar ação corretiva junto aos membros do CCB.</li>
+<li>Se for detectado a ausência de algum artefato, deve ser comunicado ao gerente de configuração para incluí-lo no gerenciamento de configuração.</li>
+<li>Se um requisito não for atendido plenamente, deve ser postergado para uma <i>baseline</i> futura ou negociar para cancelá-lo.</li>
+<li>Se uma CR estiver em aberto, deverá ser analisado qual o melhor encaminhamento, se deverá ser fechada, cancelada ou adiada.</li>
+</ol>
+
