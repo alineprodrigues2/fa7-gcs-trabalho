@@ -29,9 +29,9 @@ _[Controlar as versões do sistema, fazer os commits, branchs e merges para melh
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
-_[TERMO	SIGNIFICADO
+[TERMO	SIGNIFICADO
 Baseline	Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade.
-SKRV	Sistema Kalebe Ricardo Virgilio]_
+
 
 1.4 Referências
 ---------------
